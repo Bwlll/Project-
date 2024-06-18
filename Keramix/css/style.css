@@ -1,0 +1,153 @@
+body {
+    margin: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    background: #ffffff;
+}
+header{
+    position: fixed;
+    background-color: #32343d;
+    height: 100px;
+    top: 0px;
+    width: 100%;
+}
+header.container{
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+}
+.container{
+max-width: 1650px;
+margin: auto;
+}
+.header__links ul{
+    display: flex;
+    gap: 45px;
+}
+ul li{
+    list-style: none;
+}
+.header__call a {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    height: 100%;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+.header__networks--content{
+    display: flex; 
+    align-items: center;
+    gap: 30px;
+}
+.burger__menu{
+    display: none;
+}
+main h2{
+    margin: 100px 0px 50px 0px;
+    font-size: 36px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #32343d;
+}
+h2{
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.section__about{
+    background: #32343d;
+    color: #ffffff;
+    padding: 100px 0px;
+}
+.section__about
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+.text__block{
+    width: 50%;
+}
+.section__about h2{
+    font-size: 36px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.section__about span{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #ffffff;
+}
+.about__main--text.block{
+    margin-top: 30px;
+}
+.block{
+    display: block;
+}
+.about__characteristic{
+    margin-top: 55px;
+    display: flex;
+    justify-content: space-between;
+    gap: 72px;
+}
+.about__characteristic--items{
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #ef7607;
+}
+.text__image--picture{
+    width: 100%;
+    position: relative;
+    width: 663px;
+    height: 654px;
+}
+.coupon__section  h2{
+    margin-top: 0;
+    font-size:36px ;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #3f3f3f;
+}
+.section__score h2{
+    font-size: 36px;
+    line-height: 32px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.section__score--content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.d-flex{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.d-flex time{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.score__item{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+.location{
+    position: relative;
+    overflow: hidden;
+    margin-top: 20px;
+}
